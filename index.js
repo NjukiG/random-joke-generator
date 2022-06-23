@@ -30,23 +30,27 @@ function getJokes(){
 // on click events
 
 function randomizeColors() {
-    var rgbColor = aqua;
+    var rgbColor = "";
     red = Math.floor(Math.random() * 250 + 0);
     green = Math.floor(Math.random() * 250 + 0);
     blue = Math.floor(Math.random() * 250 + 0);
   
     rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
-//     document.getElementById("container").style.background = rgbColor;
+    document.getElementById("container").style.background = rgbColor;
   
-//     red = ("0" + red.toString(16)).substr(-2).toUpperCase();
-//     green = ("0" + green.toString(16)).substr(-2).toUpperCase();
-//     blue = ("0" + blue.toString(16)).substr(-2).toUpperCase();
+    red = ("0" + red.toString(16)).substr(-2).toUpperCase();
+    green = ("0" + green.toString(16)).substr(-2).toUpperCase();
+    blue = ("0" + blue.toString(16)).substr(-2).toUpperCase();
 }
   
-  // randomize();
+  // randomizeColors();
 
 
 
-
+// Added a click event listener for the getJokes function.
 button.addEventListener("click", getJokes);
+
+
+//Added an event listener for the random colors function.
+button.addEventListener("click", randomizeColors);
 
