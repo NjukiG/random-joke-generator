@@ -30,12 +30,12 @@ function getJokes(){
 // on click events
 
 function randomizeColors() {
-//     var rgbColor = aqua;
-//     red = Math.floor(Math.random() * 250 + 0);
-//     green = Math.floor(Math.random() * 250 + 0);
-//     blue = Math.floor(Math.random() * 250 + 0);
+    var rgbColor = aqua;
+    red = Math.floor(Math.random() * 250 + 0);
+    green = Math.floor(Math.random() * 250 + 0);
+    blue = Math.floor(Math.random() * 250 + 0);
   
-//     rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+    rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
 //     document.getElementById("container").style.background = rgbColor;
   
 //     red = ("0" + red.toString(16)).substr(-2).toUpperCase();
