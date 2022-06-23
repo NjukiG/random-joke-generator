@@ -53,3 +53,12 @@ body {
     font-size: medium;
     cursor: pointer;
 }
+
+
+
+@media screen and (min-width: 600px) {
+    #container{
+        width: 100%;
+        height: 100vh;
+    }
+  }
