@@ -13,9 +13,9 @@ function getJokes(){
         return res.json();
     })
     .then(function (data){
-        // quotes.innerHTML = data.jokes[0].setup;
-        // author.innerHTML = data.jokes[0].delivery;
-        console.log(data.jokes[0].delivery);
+        quotes.innerHTML = data.jokes[0].setup;
+        author.innerHTML = data.jokes[0].delivery;
+        // console.log(data.jokes[0].delivery);
     })
 }
 
