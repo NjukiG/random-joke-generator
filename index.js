@@ -4,7 +4,7 @@ const quotes = document.getElementById("quotes");
 const author = document.getElementById("author");
 const button = document.getElementById("button");
 
-// let apiURL = "https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Spooky?type=twopart&amount=10";
+let apiURL = "https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Spooky?type=twopart&amount=10";
 
 
 // function getJokes(){
