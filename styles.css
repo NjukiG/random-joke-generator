@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+
+#container{
+    background-image: url("https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/wave.jpg?itok=YgQDX-Sv");
+    width: 50%;
+    height: 45vh;
+    margin: auto;
+    padding: 10px;
+    border: 5px;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+
+#header {
+    text-align: center;
+    padding: 40px;
+    color: aqua;
+}
