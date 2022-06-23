@@ -20,3 +20,16 @@ body {
     padding: 40px;
     color: aqua;
 }
+
+
+#quotes{
+    padding: 50px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+#author{
+    padding: 10px;
+    text-align: center;
+}
