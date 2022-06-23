@@ -15,12 +15,12 @@ function getJokes(){
     .then(function (data){
         quotes.innerHTML = data.jokes[0].setup;
         author.innerHTML = data.jokes[0].delivery;
-        // console.log(data.jokes[0].delivery);
+        //console.log(data.jokes[0].delivery);
     })
 }
 
-getJokes();
+// getJokes();
 
 
-// button.addEventListener("click", getJokes);
+button.addEventListener("click", getJokes);
 
