@@ -24,3 +24,6 @@ I also made sure that the app was responsive to different viewport sizes such as
 The link to the API is: https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Spooky?type=twopart&amount=10
 
 When using the app, limit your clicks to 60 a day. If your exceed the number of jokes a day, the app will stop functionality and have to be patient to try it out the following day.
+
+The link to the live site on GitHub Pages is: 
+https://njukig.github.io/random-joke-generator/
