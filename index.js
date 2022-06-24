@@ -46,11 +46,6 @@ function randomizeColors() {
   // randomizeColors();
 
 
-  function mouseOver(){
-
-  }
-
-
 
 // Added a click event listener for the getJokes function.
 button.addEventListener("click", getJokes);
@@ -58,12 +53,3 @@ button.addEventListener("click", getJokes);
 
 //Added an event listener for the random colors function.
 button.addEventListener("click", randomizeColors);
-
-
-
-// function myFunction() {
-//     let element = document.body;
-//     element.classList.toggle("dark-mode");
-//  }
-
-// button.addEventListener("click", myFunction);
