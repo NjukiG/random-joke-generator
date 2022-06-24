@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -50,7 +51,8 @@ body {
     align-items: center;
     width: 20%;
     align-content: center;
-    font-size: medium;
+    font-size: large;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -66,8 +68,8 @@ body {
 
   @media screen and (max-width: 580px) {
     #container {
-        width: 50%;
-        height: 45vh;
+        width: 80%;
+        height: 75vh;
     }
   }
 

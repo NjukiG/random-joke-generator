@@ -7,7 +7,7 @@ const button = document.getElementById("button");
 
 let apiURL = "https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Spooky?type=twopart&amount=10";
 
-// THis function will be used to fetch the data from the above API;
+// This function will be used to fetch the data from the above API;
 // It will also render the data in the container div when called inside the 
 // event listener below.
 
@@ -22,8 +22,6 @@ function getJokes(){
         //console.log(data.jokes[0].delivery);
     })
 }
-
-// getJokes();
 
 
 // This function will be used to generate background colors at random 
@@ -43,8 +41,6 @@ function randomizeColors() {
     blue = ("0" + blue.toString(16)).substr(-2).toUpperCase();
 }
   
-  // randomizeColors();
-
 
 
 // Added a click event listener for the getJokes function.
@@ -53,3 +49,21 @@ button.addEventListener("click", getJokes);
 
 //Added an event listener for the random colors function.
 button.addEventListener("click", randomizeColors);
+
+//These next two functions and their event listeners change the
+// colors and the font weight of the button element to green and 
+// aqua on mouse over and on mouse out events. 
+
+function btnHovOver(){
+    button.style.backgroundColor = "greenyellow";
+    button.style.fontWeight = "1000";
+}
+
+function btnHovOut(){
+    button.style.backgroundColor = "aqua";
+    button.style.fontWeight = "600";
+
+}
+
+button.addEventListener("mouseover", btnHovOver);
+button.addEventListener("mouseout", btnHovOut);
