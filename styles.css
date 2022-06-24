@@ -70,3 +70,11 @@ body {
         height: 45vh;
     }
   }
+
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  
