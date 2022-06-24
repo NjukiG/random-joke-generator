@@ -69,8 +69,22 @@ body {
   @media screen and (max-width: 580px) {
     #container {
         width: 80%;
-        height: 75vh;
+        height: 90vh;
     }
+    #button{
+        width: 30%;
+
+    }
+    #quotes{
+        padding: 80px;
+        text-align: center;
+        font-weight: 900;
+    }
+    #author{
+        padding: 20px;
+        text-align: center;
+    }
+    
   }
 
 
